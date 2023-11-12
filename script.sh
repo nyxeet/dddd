@@ -23,7 +23,7 @@ update_packages() {
 # Check version from os-release file
 if [ -f /etc/os-release ]; then
     # Get variables from os-release file
-    source /etc/os-releaseUPDFEAT1
+    source /etc/os-release
 
     # $ID contains name of linux, here is function execution
     case $ID in
